@@ -15,6 +15,10 @@ myRaper.config(['$routeProvider', function($routeProvider){
         })
 }])
 
-myRaper.controller('raperController', ['$scope', function($scope){
+myRaper.controller('raperController', ['$scope','$http', function($scope, $http){
 $scope.dupa = 'test';
+$http.get('api/data.json').then(function(response){
+    $scope.dane = response;
+    $scope.dane2 = response.data[1].name
+})
 }])

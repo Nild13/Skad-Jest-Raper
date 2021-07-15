@@ -1,0 +1,21 @@
+[{
+	"name": "Biały",
+	"gatunek": "rap",
+	"rate": 50,
+	"available": true
+}, {
+	"name": "Tomek",
+	"gatunek": "rap",
+	"rate": 100,
+	"available": true
+}, {
+	"name": "Fantom",
+	"gatunek": "rap",
+	"rate": 200,
+	"available": false
+}, {
+	"name": "Fiżbin",
+	"gatunek": "rap",
+	"rate": 400,
+	"available": true
+}]
